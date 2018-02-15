@@ -72,6 +72,7 @@ plugins=(
 )
 
 EDITOR="vim"
+VISUAL="$EDITOR"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
