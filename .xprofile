@@ -1,1 +1,1 @@
-unclutter -root &
+unclutter -root -idle 1 -grab &
