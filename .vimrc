@@ -29,6 +29,7 @@ let g:jedi#popup_on_dot = 0
 set number
 set incsearch
 set hlsearch
+nnoremap <silent> <CR> :nohlsearch<CR><CR>
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
