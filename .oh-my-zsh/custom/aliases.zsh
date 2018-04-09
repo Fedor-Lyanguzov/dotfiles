@@ -4,3 +4,4 @@ alias vimrc="$EDITOR ~/.vimrc"
 alias venv="source .venv/bin/activate"
 alias mkvenv="python3 -m venv .venv && source .venv/bin/activate"
 alias gcd='git checkout development'
+alias here=gnome-terminal
