@@ -7,6 +7,7 @@ alias gcd='git checkout development'
 alias here=gnome-terminal
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS,.venv} '
 alias save='gca && gp'
+alias beep='paplay /usr/share/sounds/gnome/default/alerts/bark.ogg'
 
 function _commands() {
   awk '{a[$2]++}END{for(i in a){print a[i] " " i}}'

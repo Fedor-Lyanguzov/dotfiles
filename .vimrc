@@ -30,6 +30,7 @@ set number
 set incsearch
 set hlsearch
 nnoremap <silent> <CR> :nohlsearch<CR><CR>
+set clipboard=unnamedplus
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
