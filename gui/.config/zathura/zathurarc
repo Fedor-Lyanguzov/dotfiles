@@ -1,0 +1,4 @@
+set selection-clipboard clipboard
+set recolor true
+set adjust-open width
+set scroll-full-overlap 0.05

@@ -1,0 +1,9 @@
+[user]
+	email = fedor.lyanguzov@ya.ru
+	name = Fedor Lyanguzov
+[commit]
+	verbose = true
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
