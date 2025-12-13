@@ -1,8 +1,8 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    alias ls eza --icons
-    alias ll eza -al --git --icons
-    alias la eza -a --icons
+    alias ls "eza --icons"
+    alias ll "eza -al --git --icons"
+    alias la "eza -a --icons"
     alias cat bat
     alias grep rg
     alias e nvim
@@ -15,10 +15,10 @@ if status is-interactive
     function mvr
         rsync --archive -hh --partial --info=stats1,progress2 --modify-window=1 --remove-source-files "$argv"
     end
-    alias ga git add .
-    alias gs git status
-    alias gc git commit
-    alias gp git push
+    alias ga "git add ."
+    alias gs "git status"
+    alias gc "git commit"
+    alias gp "git push"
     function pdf
         zathura "$argv" --fork && exit
     end
