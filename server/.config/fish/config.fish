@@ -9,6 +9,7 @@ if status is-interactive
     alias edit nvim
     alias find fd
     zoxide init --cmd cd fish | source
+    aslias show-packages "expac -H M '%-20n\t%10d' (pacman -Qqe)"
     function mkcd
         mkdir $argv[1] && cd $argv[1]
     end
