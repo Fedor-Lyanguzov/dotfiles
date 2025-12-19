@@ -9,6 +9,9 @@ if status is-interactive
     alias edit nvim
     alias find fd
     zoxide init --cmd cd fish | source
+    function mkcd
+        mkdir $argv[1] && cd $argv[1]
+    end
     function cpr
         rsync --archive -hh --partial --info=stats1,progress2 --modify-window=1 "$argv"
     end
