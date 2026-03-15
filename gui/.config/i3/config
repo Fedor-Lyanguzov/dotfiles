@@ -194,9 +194,13 @@ bar {
 
 
 assign [class="^firefox$"] $ws1
-assign [class="^KeePassXC$"] $ws7 
-assign [class="^TelegramDesktop$"] $ws8 
+assign [class="^obsidian$"] $ws5
+assign [class="^strawberry$"] $ws6
+assign [class="^KeePassXC$"] $ws7
+assign [class="^TelegramDesktop$"] $ws8
 exec firefox
 exec keepassxc
-exec Telegram 
+exec strawberry
+exec obsidian
+exec Telegram
 
