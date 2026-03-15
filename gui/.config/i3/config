@@ -195,7 +195,7 @@ bar {
 
 assign [class="^firefox$"] $ws1
 assign [class="^obsidian$"] $ws5
-assign [class="^strawberry$"] $ws6
+assign [class="(?i)strawberry"] $ws6
 assign [class="^KeePassXC$"] $ws7
 assign [class="^TelegramDesktop$"] $ws8
 exec firefox
